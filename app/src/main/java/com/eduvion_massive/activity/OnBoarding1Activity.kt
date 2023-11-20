@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
-import androidx.core.content.ContextCompat.startActivity
 import com.eduvion_massive.R
 
 class OnBoarding1Activity : AppCompatActivity() {
