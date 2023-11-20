@@ -26,10 +26,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.toolbar.apply {
-            setSupportActionBar(this)
-        }
-
         binding.bottomNavigation.apply {
             // Set a default position
             active(navPosition.position) // Extension function
