@@ -11,5 +11,12 @@
     <string name="jadwal_penelitian">Jadwal Penelitian</string>
     <string name="skrpsi">Skripsi</string>
     <string name="in_progress">In Progress</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="topik_skripsi">Topik Skripsi</string>
+    <string name="judul_skripsi">Judul Skripsi</string>
+    <string name="essay_content">Essay Content</string>
+    <string name="maximum500words">Maximum 500 words</string>
 
 </resources>
