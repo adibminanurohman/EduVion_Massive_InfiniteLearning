@@ -4,4 +4,12 @@
     <string name="title_konsultasi">Konsultasi</string>
     <string name="title_status">Status</string>
     <string name="title_chat">Chat</string>
+    <string name="peter">Muhammad Peter</string>
+    <string name="konsultasi_online">Konsultasi Online</string>
+    <string name="tony">Tony</string>
+    <string name="anton">Anton</string>
+    <string name="jadwal_penelitian">Jadwal Penelitian</string>
+    <string name="skrpsi">Skripsi</string>
+    <string name="in_progress">In Progress</string>
+
 </resources>
