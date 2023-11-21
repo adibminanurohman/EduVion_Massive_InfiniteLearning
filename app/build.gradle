@@ -43,6 +43,7 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
     implementation "com.google.android.material:material:$materialVersion"
     implementation "androidx.fragment:fragment-ktx:1.5.5"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation("androidx.test.espresso:espresso-core:$espressoVersion", {

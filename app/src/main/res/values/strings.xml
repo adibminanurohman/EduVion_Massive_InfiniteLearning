@@ -4,4 +4,22 @@
     <string name="title_konsultasi">Konsultasi</string>
     <string name="title_status">Status</string>
     <string name="title_chat">Chat</string>
+    <string name="barcode_scan">Barcode Scanner</string>
+    <string name="desc_barcode1">Scan QR Code di halaman website untuk melakukan login secara langsung lewat user > settings > view QR code.</string>
+    <string name="desc_barcode2">Scan QR Code di halaman website untuk melakukan login secara langsung lewat profil > view QR code.</string>
+    <string name="user_ditemukan">User Ditemukan</string>
+    <string name="muhammad_peter">Muhammad Peter</string>
+    <string name="universitas_misigan">Universitas Misigan Mahasiswa - 3148395324</string>
+    <string name="animasi">Animasi</string>
+    <string name="loading_screen_tip">Pro tip: Ini adalah tips yang berguna. Akan muncul setiap aplikasi ini sedang memuat :)</string>
+    <string name="acara_mendatang">Acara Mendatang</string>
+    <string name="tony">Tony</string>
+    <string name="status_chat">Online terakhir pada 12.04</string>
+    <string name="ket_chat">Percakapan dimulai pada 08/10/2033</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="email">Email</string>
+    <string name="akun_email">peter.3148@student.misigan.ac.id</string>
+    <string name="phone">Phone</string>
+    <string name="number_phone">+1 123-456-7890</string>
+    <string name="password">Password</string>
 </resources>

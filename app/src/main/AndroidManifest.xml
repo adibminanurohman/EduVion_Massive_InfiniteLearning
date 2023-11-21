@@ -11,11 +11,39 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:configChanges="uiMode"
+            android:name=".activity.EjurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PengaturanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RoomchatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.KalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoadingScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Barcode2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Barcode1Activity"
+            android:exported="false" />
+        <activity
             android:name=".ui.MainActivity"
+            android:configChanges="uiMode"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
