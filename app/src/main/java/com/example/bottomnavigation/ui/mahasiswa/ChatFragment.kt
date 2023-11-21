@@ -1,4 +1,4 @@
-package com.example.bottomnavigation.ui
+package com.example.bottomnavigation.ui.mahasiswa
 
 import android.os.Bundle
 import android.view.LayoutInflater

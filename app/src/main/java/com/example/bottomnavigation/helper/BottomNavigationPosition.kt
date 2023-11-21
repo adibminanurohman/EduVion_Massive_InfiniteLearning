@@ -2,10 +2,10 @@ package com.example.bottomnavigation.helper
 
 import androidx.fragment.app.Fragment
 import com.example.bottomnavigation.R
-import com.example.bottomnavigation.ui.KonsultasiFragment
-import com.example.bottomnavigation.ui.HomeFragment
-import com.example.bottomnavigation.ui.StatusFragment
-import com.example.bottomnavigation.ui.ChatFragment
+import com.example.bottomnavigation.ui.mahasiswa.KonsultasiFragment
+import com.example.bottomnavigation.ui.mahasiswa.HomeFragment
+import com.example.bottomnavigation.ui.mahasiswa.StatusFragment
+import com.example.bottomnavigation.ui.mahasiswa.ChatFragment
 
 enum class BottomNavigationPosition(val position: Int, val id: Int) {
     HOME(0, R.id.home),
