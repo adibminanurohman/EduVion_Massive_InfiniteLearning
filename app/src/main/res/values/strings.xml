@@ -18,5 +18,6 @@
     <string name="judul_skripsi">Judul Skripsi</string>
     <string name="essay_content">Essay Content</string>
     <string name="maximum500words">Maximum 500 words</string>
+    <string name="status_skripsi">Status Skripsi</string>
 
 </resources>
