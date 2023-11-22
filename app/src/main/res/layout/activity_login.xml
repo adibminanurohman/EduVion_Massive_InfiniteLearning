@@ -53,11 +53,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/imglogin"
+        android:onClick="navigateToBarcode1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.092"
+        />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -107,6 +109,7 @@
         android:contentDescription="Button login"
         android:scaleType="fitXY"
         android:src="@drawable/btnmasuk"
+        android:onClick="navigateToBarcode1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"

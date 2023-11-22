@@ -17,8 +17,13 @@ class Barcode2Activity : AppCompatActivity() {
         setContentView(binding.root)
     }
 
-    fun navigateToBarcode2(view: View) {
+    fun navigateToLoadingScreen(view: View) {
         val intent = Intent(this, LoadingScreenActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun navigateToBarcode1(view: View) {
+        val intent = Intent(this, Barcode1Activity::class.java)
         startActivity(intent)
     }
 }

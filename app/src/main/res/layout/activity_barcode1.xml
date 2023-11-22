@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.mahasiswa.Barcode1Activity"
-    android:background="@drawable/background_barcode1">
+    android:background="@drawable/background_barcode1"
+    android:onClick="navigateToBarcode2">
 
     <ImageButton
         android:id="@+id/imageButton"
