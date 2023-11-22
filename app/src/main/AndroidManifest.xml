@@ -37,6 +37,45 @@
             android:name=".onboarding.LoginActivity"
             android:exported="false" />
         <activity
+            android:name=".activity.dosen.UnggahJurnalDosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dosen.EjurnalDosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dosen.PengaturanDosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dosen.Barcode2DosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dosen.Barcode1DosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.EjurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.PengaturanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.RoomchatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.KalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.LoadingScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.Barcode2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.Barcode1Activity"
+            android:exported="false" />
+        <activity
             android:name=".onboarding.SplashScreen"
             android:exported="true">
             <intent-filter>
