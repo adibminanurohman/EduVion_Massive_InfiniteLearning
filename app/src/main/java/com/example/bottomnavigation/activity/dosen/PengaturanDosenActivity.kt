@@ -1,12 +1,12 @@
-package com.example.bottomnavigation.activity
+package com.example.bottomnavigation.activity.dosen
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bottomnavigation.R
 
-class PengaturanActivity : AppCompatActivity() {
+class PengaturanDosenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pengaturan)
+        setContentView(R.layout.activity_pengaturan_dosen)
     }
 }

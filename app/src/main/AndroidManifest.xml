@@ -11,31 +11,49 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".activity.EjurnalActivity"
+            android:name=".activity.dosen.UnggahJurnalDosenActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.PengaturanActivity"
+            android:name=".activity.dosen.EjurnalDosenActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.RoomchatActivity"
+            android:name=".activity.dosen.PengaturanDosenActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.NotifikasiActivity"
+            android:name=".activity.dosen.Barcode2DosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dosen.Barcode1DosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.dosen.Barcode1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.EjurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.PengaturanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.RoomchatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.mahasiswa.NotifikasiActivity"
             android:exported="false" />
         <activity
             android:name=".NotifikasiActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.KalenderActivity"
+            android:name=".activity.mahasiswa.KalenderActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.LoadingScreenActivity"
+            android:name=".activity.mahasiswa.LoadingScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.Barcode2Activity"
+            android:name=".activity.mahasiswa.Barcode2Activity"
             android:exported="false" />
         <activity
-            android:name=".activity.Barcode1Activity"
+            android:name=".activity.mahasiswa.Barcode1Activity"
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"

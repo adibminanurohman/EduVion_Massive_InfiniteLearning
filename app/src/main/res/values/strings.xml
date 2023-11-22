@@ -22,4 +22,8 @@
     <string name="phone">Phone</string>
     <string name="number_phone">+1 123-456-7890</string>
     <string name="password">Password</string>
+    <string name="universitas_misigan_tony">Universitas Misigan Dosen - 4382345</string>
+    <string name="judul">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="link">Link</string>
 </resources>

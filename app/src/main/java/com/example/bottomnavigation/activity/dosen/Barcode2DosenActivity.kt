@@ -1,12 +1,12 @@
-package com.example.bottomnavigation.activity
+package com.example.bottomnavigation.activity.dosen
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bottomnavigation.R
 
-class KalenderActivity : AppCompatActivity() {
+class Barcode2DosenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kalender)
+        setContentView(R.layout.activity_barcode2_dosen)
     }
 }

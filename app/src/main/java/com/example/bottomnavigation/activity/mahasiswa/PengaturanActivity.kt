@@ -1,12 +1,12 @@
-package com.example.bottomnavigation.activity
+package com.example.bottomnavigation.activity.mahasiswa
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bottomnavigation.R
 
-class EjurnalActivity : AppCompatActivity() {
+class PengaturanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ejurnal)
+        setContentView(R.layout.activity_pengaturan)
     }
 }
