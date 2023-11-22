@@ -80,13 +80,14 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:contentDescription="selanjutnya"
+        android:onClick="navigateToOnBoarding4"
         android:src="@drawable/btnnext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.267" />
+        app:layout_constraintVertical_bias="0.328" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -94,13 +95,14 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:contentDescription="Sebelumnya"
+        android:onClick="navigateToOnBoarding2"
         android:src="@drawable/btnback"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:layout_constraintVertical_bias="0.122" />
+        app:layout_constraintVertical_bias="0.138" />
 
     <ImageView
         android:layout_width="wrap_content"

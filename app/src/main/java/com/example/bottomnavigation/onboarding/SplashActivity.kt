@@ -1,5 +1,4 @@
-package com.eduvion_massive.activity
-
+package com.example.bottomnavigation.onboarding
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,10 +11,9 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         Handler().postDelayed({
-            // Arahkan ke activity utama setelah delay selesai
-            val intent = Intent(this@SplashScreen, OnBoarding1Activity::class.java)
+            val intent = Intent(this@SplashScreen, OnBoardingActivity1::class.java)
             startActivity(intent)
             finish()
-        }, 2000) // Delay dalam milidetik (misalnya, 3000ms atau 3 detik)
+        }, 2000)
     }
 }

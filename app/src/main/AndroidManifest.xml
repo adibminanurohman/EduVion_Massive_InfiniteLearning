@@ -13,12 +13,40 @@
         <activity
             android:configChanges="uiMode"
             android:name=".ui.MainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".onboarding.OnBoarding7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.OnBoarding6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.OnBoarding5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.OnBoarding4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.OnBoarding3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.OnBoarding2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".onboarding.OnBoardingActivity1"
+            android:exported="false" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

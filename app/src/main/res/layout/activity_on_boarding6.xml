@@ -109,6 +109,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:contentDescription="button selanjutnya"
+        android:onClick="navigateToOnBoarding7"
         android:src="@drawable/btnnext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

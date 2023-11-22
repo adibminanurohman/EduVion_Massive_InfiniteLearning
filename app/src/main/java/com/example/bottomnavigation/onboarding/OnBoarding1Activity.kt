@@ -1,4 +1,4 @@
-package com.eduvion_massive.activity
+package com.example.bottomnavigation.onboarding
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,33 +6,21 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import com.example.bottomnavigation.R
+import com.example.bottomnavigation.databinding.ActivityOnBoarding1Binding
 
-class OnBoarding1Activity : AppCompatActivity() {
+class OnBoardingActivity1 : AppCompatActivity() {
+
+    private lateinit var binding: ActivityOnBoarding1Binding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_on_boarding1)
-
-        val btnSignup = findViewById<ImageButton>(R.id.btn_next)
-        btnSignup.setOnClickListener(this)
-        }
+        binding = ActivityOnBoarding1Binding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 
-private fun ImageButton.setOnClickListener(onBoarding1Activity: OnBoarding1Activity) {
-    fun startActivity(intent: Intent) {
-
-    }
-
-    fun Intent(imageButton: ImageButton, java: Class<OnBoarding2Activity>): Intent {
-        TODO("Not yet implemented")
-    }
-
-    fun onClick(v: View) {
-        when (v.id) {
-            R.id.btn_next -> {
-                val intent = Intent(this, OnBoarding2Activity::class.java)
-                startActivity(intent)
-            }
-        }
+    fun navigateToOnBoarding2(view: View) {
+        val intent = Intent(this, OnBoarding2Activity::class.java)
+        startActivity(intent)
     }
 }
 
