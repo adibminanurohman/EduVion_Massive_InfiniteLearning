@@ -14,13 +14,29 @@
       android:layout_height="wrap_content"
       android:background="@android:color/transparent"
       android:contentDescription="tombol back"
-      android:src="@drawable/kalenderakademik"
+      android:src="@drawable/ic_back"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.231"
+      app:layout_constraintHorizontal_bias="0.051"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.032" />
+      app:layout_constraintVertical_bias="0.048"
+      app:tint="@color/black" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/latoregular"
+      android:text="Kalender Akademik"
+      android:textColor="@color/black"
+      android:textSize="23sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.041"
+      app:layout_constraintStart_toEndOf="@+id/imageButton3"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.047" />
 
   <ImageView
       android:id="@+id/imageView4"
@@ -60,18 +76,20 @@
       app:layout_constraintTop_toBottomOf="@+id/imageView4"
       app:layout_constraintVertical_bias="0.198" />
 
-  <ImageView
-      android:id="@+id/imageView6"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:contentDescription="jadwal bimbingan"
-      android:src="@drawable/bimbinganskripsi"
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="244dp"
+      android:layout_height="40dp"
+      android:fontFamily="@font/latoregular"
+      android:text="Bimbingan Skripsi Online 20/11/2023  |   08:30 - 10:00                                                                                                  "
+      android:textColor="@color/black"
+      android:textSize="17sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.099"
+      app:layout_constraintHorizontal_bias="0.119"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-      app:layout_constraintVertical_bias="0.596" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.614" />
 
   <ImageView
       android:id="@+id/imageView7"
