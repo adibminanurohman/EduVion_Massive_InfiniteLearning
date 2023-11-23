@@ -91,10 +91,12 @@
         android:id="@+id/editText2"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
         android:background="@drawable/framekatasandi"
         android:fontFamily="@font/latoregular"
         android:hint="     Kata sandi"
         android:textSize="17sp"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -109,7 +111,7 @@
         android:contentDescription="Button login"
         android:scaleType="fitXY"
         android:src="@drawable/btnmasuk"
-        android:onClick="navigateToBarcode1"
+        android:onClick="navigateLoginToLoadingScreen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -121,6 +123,7 @@
         android:id="@+id/editText"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
         android:background="@drawable/frameemail"
         android:fontFamily="@font/latoregular"
         android:hint="     Nama pengguna/Email kampus"
@@ -171,6 +174,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
