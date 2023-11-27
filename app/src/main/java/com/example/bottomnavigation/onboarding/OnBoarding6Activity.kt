@@ -24,5 +24,8 @@ class OnBoarding6Activity : AppCompatActivity() {
     fun navigateToOnBoarding7(view: View) {
         val intent = Intent(this, OnBoarding7Activity::class.java)
         startActivity(intent)
+    }    fun navigateToOnBoarding7Dosen(view: View) {
+        val intent = Intent(this, OnBoarding7DosenActivity::class.java)
+        startActivity(intent)
     }
 }

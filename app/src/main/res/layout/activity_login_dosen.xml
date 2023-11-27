@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bgsplash"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/bgsplash">
-
+    tools:context=".onboarding.LoginDosenActivity">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -65,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:onClick="navigateToBarcode1"
+        android:onClick="navigateToBarcode1Dosen"
         android:contentDescription="Scan barcode"
         android:src="@drawable/barcode"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -111,7 +110,7 @@
         android:contentDescription="Button login"
         android:scaleType="fitXY"
         android:src="@drawable/btnmasuk"
-        android:onClick="navigateLoginToLoadingScreen"
+        android:onClick="navigateLoginToLoadingScreenDosen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -181,6 +180,5 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
